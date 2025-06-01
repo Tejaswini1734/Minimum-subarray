@@ -91,7 +91,7 @@ jobs:
         if: ${{ env.language == 'Java' }}
         run: |
           if [ -f Tests/Test.java ]; then
-            javac -d . Solutions/*.java Tests/*.java && java Tests.Test
+             javac -d . Solutions/*.java Tests/*.java && java Tests.Test
           else
-            echo "Java test file not found at Tests/Test.java, skipping Java test."
+             echo "Java test file not found at Tests/Test.java, skipping Java test."
           fi

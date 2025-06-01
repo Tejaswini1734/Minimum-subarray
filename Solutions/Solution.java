@@ -14,6 +14,7 @@ public class Solution {
                 sum -= nums[left++];
             }
         }
+          
           return minLen == n + 1 ? 0 : minLen;
     }
 }

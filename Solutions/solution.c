@@ -14,5 +14,6 @@ int minSubArrayLen(int target, int* nums, int numsSize) {
             sum -= nums[left++];
         }
     }
+    
     return (minLen == INT_MAX) ? 0 : minLen;
 }

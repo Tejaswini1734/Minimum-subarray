@@ -14,3 +14,4 @@ def min_sub_array_len(target, nums):
             left += 1
 
     return min_len if min_len != math.inf else 0
+    

@@ -20,4 +20,5 @@ public:
         }
       return min_len == INT_MAX ? 0 : min_len;
     }
+
 };
